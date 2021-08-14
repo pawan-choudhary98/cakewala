@@ -169,7 +169,7 @@
                     
                     @keyframes image {
                         0% {
-                            background: rgba(0.3, 0, 0, 0.6) url(images/bgimage.jpg) no-repeat center;
+                            background: rgba(0.3, 0, 0, 0.6) url(../images/bgimage.jpg) no-repeat center;
                             background-blend-mode: darken;
                             background-attachment: fixed;
                             background-size: cover;
