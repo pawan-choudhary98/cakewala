@@ -163,25 +163,25 @@
                         justify-content: center;
                         align-items: center;
                         min-height: 100vh;
-                        clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+            
                         animation: image 20s 1s forwards running infinite ease-in-out alternate;
                     }
                     
                     @keyframes image {
                         0% {
-                            background: rgba(0.3, 0, 0, 0.6) url(../images/bgimage.jpg) no-repeat center;
+                            background: rgba(0.3, 0, 0, 0.6) url(.../images/bgimage.jpg) no-repeat center;
                             background-blend-mode: darken;
                             background-attachment: fixed;
                             background-size: cover;
                         }
                         50% {
-                            background: rgba(.3, 0, 0, 0.6) url(images/bgimage2.jpg) no-repeat center;
+                            background: rgba(.3, 0, 0, 0.6) url(.../images/bgimage2.jpg) no-repeat center;
                             background-blend-mode: darken;
                             background-size: cover;
                             background-attachment: fixed;
                         }
                         100% {
-                            background: rgba(0.3, 0, 0, 0.6) url(images/bgimage1.jpg) no-repeat center;
+                            background: rgba(0.3, 0, 0, 0.6) url(.../images/bgimage1.jpg) no-repeat center;
                             background-blend-mode: darken;
                             background-size: cover;
                             background-attachment: fixed;
@@ -1011,7 +1011,7 @@
                     
                     @media (max-width:768px) {
                         html {
-                            font-size: 56.28%;
+                            font-size: 59%%;
                         }
                         .nav-item {
                             margin-left: 2rem;
@@ -1020,7 +1020,7 @@
                     
                     @media (max-width:478px) {
                         html {
-                            font-size: 50%;
+                            font-size: 55%;
                         }
                         .home .content h2 {
                             font-size: 6rem;
