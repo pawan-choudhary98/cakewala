@@ -169,26 +169,25 @@
                             background-blend-mode: darken;
                             background-attachment: fixed;
                             background-size: cover;
-background: rgba(.3, 0, 0, 0.6) url(./images/bgimage2.jpg) no-repeat center;
-
+                      
 
  }
                     
                     @keyframes image {
                         0% {
-                            background: rgba(0.3, 0, 0, 0.6) url(.../images/bgimage.jpg) no-repeat center;
+                            background: rgba(0.3, 0, 0, 0.6) url(../images/bgimage.jpg) no-repeat center;
                             background-blend-mode: darken;
                             background-attachment: fixed;
                             background-size: cover;
                         }
                         50% {
-                            background: rgba(.3, 0, 0, 0.6) url(.../images/bgimage2.jpg) no-repeat center;
+                            background: rgba(.3, 0, 0, 0.6) url(../images/bgimage2.jpg) no-repeat center;
                             background-blend-mode: darken;
                             background-size: cover;
                             background-attachment: fixed;
                         }
                         100% {
-                            background: rgba(0.3, 0, 0, 0.6) url(.../images/bgimage1.jpg) no-repeat center;
+                            background: rgba(0.3, 0, 0, 0.6) url(../images/bgimage1.jpg) no-repeat center;
                             background-blend-mode: darken;
                             background-size: cover;
                             background-attachment: fixed;
