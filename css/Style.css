@@ -1043,4 +1043,7 @@
                         .nav-link {
                             font-size: 1.9rem;
                         }
+                      .card{
+                      height:40rem;
+                      }
                     }
