@@ -1,3 +1,5 @@
+// responsive navbar 
+
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -17,7 +19,7 @@ function closeMenu() {
 }
 
 
-
+//goto button
 
 var btn = document.getElementById('gotobtn');
 var nav = document.getElementById('nav');
@@ -40,6 +42,8 @@ window.onscroll = function() {
 
 };
 
+
+//..........owlCarousel  slider for testimonial........
 $('#slider').owlCarousel({
     loop: true,
 
@@ -71,7 +75,7 @@ $('#slider').owlCarousel({
         }
     }
 });
-
+//..........owlCarousel  slider for photo gallray........
 $('#slider-photo').owlCarousel({
     loop: true,
 
