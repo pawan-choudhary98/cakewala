@@ -19,7 +19,12 @@
 
 </head>
 
-<body>
+<body onload="loadingFun()">
+    <!--------------pre loader----------------->
+    <div id="loading"></div>
+    
+    <!------------------------------->
+    
     <!--------------Header & Home section start----------------->
     <header class="header">
         <nav class="navbar">
@@ -470,6 +475,15 @@
     </footer>
     <!------------------footer end ------------------>
 
+
+<script>
+        var preloader = document.getElementById("loading");
+function loadingFun(){
+
+    preloader.style.display="none";
+}
+
+</script>
     <!------------------ link js file------------------>
     <script src="js/jquery.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
