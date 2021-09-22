@@ -6,4 +6,4 @@
  
  How is lookes:-
  
- ![]
+ ![Design image for Comuter/leptop ](https://github.com/pawan-choudhary98/cakewala/blob/main/Design/Computer%20design.png?raw=true)
